@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h2{
+            color: white;
+            text-align: center;
+            margin-top: 100px;
+        }
+        #container{
+            margin-top: 20vh;
+            display: flex;
+       
+            gap: 20px;
+           justify-content: center;
+            align-items: center;
+                }
+        .box{
+            height: 100px;
+            width: 100px;
+        }
+        #id1{
+            background-color: blue;
+        }
+        #id2{
+            background-color: bisque;
+        }
+        #id3{
+            background-color: brown;
+        }
+        #id4{
+            background-color: aqua;
+        }
+        #id5{
+            background-color: chocolate;
+        }
+        #buttons{
+           
+            margin-left: 40vw;
+          
+        }
+        #start{
+            border-radius: 5px;
+           
+        }
+        #stop{
+            border-radius: 5px;
+           
+            margin-left: 5vw;
+        }
+    </style>
+</head>
+<body id="bodyy">
+    <h2>Click the button to see dynamic color change</h2>
+    <div id="container">
+    <div id="id1" class="box box1">Box 1</div>
+    <div id="id2" class="box">Box 2</div>
+    <div id="id3" class="box">Box 3</div>
+    <div id="id4" class="box">Box 4</div>
+    <div id="id5" class="box">Box 5</div>
+    </div>
+    <br><br><br>
+    
+        <button class="start" id="start">Start</button>
+       
+<script src="./continuouscolorchange.js"></script>
+</body>
+</html>
