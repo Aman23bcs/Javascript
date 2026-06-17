@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        #heading {
+            text-align: center;
+        }
+
+        #rules {
+            text-align: center;
+        }
+
+        #output {
+            background: rgb(123, 97, 46);
+            text-align: center;
+        }
+        #rest{
+            color: antiquewhite;
+        }
+
+
+        #pguess {
+            text-align: center;
+        }
+
+        #remaining {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="heading">Guess The Number</h2>
+    <h4 id="rules">Guess any number to match with the random number</h4>
+    <form id="f">
+        <center>
+            <label for="guess">Guess The Number</label>
+            <input type="number" class="guess" id="guess">
+            <br><br><br>
+            <input type="button" id="button" value="Submit Guess">
+        </center>
+
+        
+
+
+    </form>
+
+    <h6 id="pguess">Previous Guesses :<span id="arr"></span></h6>
+    <h6 id="remaining">Guesses remaining : <span id="rest">10</span></h6>
+    <div id="output">Try.. You have chances left</div>
+    <script src="./guessthenumber.js"></script>
+</body>
+
+</html>
