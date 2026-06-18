@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box{
+          position: absolute;
+           top: 100px;
+          
+        }
+        .cont{
+            display: flex;
+           flex-wrap: wrap;
+           gap: 5px 5px;
+           
+            
+            justify-content: center;
+            align-items: center;
+        }
+        .id{
+            height: 15vh;
+            width: 8vw;
+            
+        }
+        .id{
+           background-color: white;
+           border-radius: 20px;
+           font-size: 40px;
+           color: goldenrod;
+           cursor: pointer;
+           
+        }
+        .id:hover{
+            background-color: bisque;
+        }
+        .box{
+            margin-top: 10vh;
+            margin-left: 35vw;
+            height: 31vh;
+            width: 28vw;
+        
+        }
+        .last{
+            margin-top: 5vh;
+            margin-left: 9vw;
+            padding: 5px;
+            border-radius: 15px;
+        }
+        .last:hover{
+            background-color: bisque;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .display{
+            background-color: rgb(51, 38, 99);
+            color: rgb(255, 255, 255);
+            height: 45vh;
+            width: 30%;
+            margin-left: 0vw;
+            font-size: 30px;
+            padding-left: 30px;
+            padding-top: 30px;
+           margin: auto;
+           display: none;
+            
+            
+        }
+
+        .display2{
+            
+            z-index: 30;
+            background-color: bisque;
+            color: rgba(95, 227, 34, 0.867);
+            height: 55vh;
+            width: 70%;
+            margin-left: 0vw;
+            padding-left: 200px;
+            padding-top: 70px;
+            font-size: 100px;
+           position: relative;
+            margin: auto;
+            opacity: 90%;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 512 512">
+        <path fill="#fff" d="M361 360.95L191 290.5v57.1l-40 16.6V151.05l170 70.3v-57.2l1-.4.1-.05 38.9-15.9"></path>
+        </svg>
+        <div class="display hero"></div>
+        <div class="box">
+            <div class="cont">
+                <div><button id="id1" class="id"></button></div>
+                <div><button id="id2" class="id"></button></div>
+                <div><button id="id3" class="id"></button></div>
+                <div><button id="id4" class="id"></button></div>
+                <div><button id="id5" class="id"></button></div>
+                <div><button id="id6" class="id"></button></div>
+                <div><button id="id7" class="id"></button></div>
+                <div><button id="id8" class="id"></button></div>
+                <div><button id="id9" class="id"></button></div>
+            </div>
+            <a href="./tictactoe.html"><button class="last">New Game</button></a>
+        </div>
+       
+       
+       <script src="./tictactoe.js"></script> 
+</body>
+</html>
