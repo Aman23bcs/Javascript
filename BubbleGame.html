@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .body {
+            background-color: rgb(71, 111, 71);
+            padding-left: 10vw;
+            padding-top: 10vh;
+        }
+
+        .box {
+            background-color: white;
+            height: 70vh;
+            width: 80vw;
+            border-radius: 1vh;
+        }
+
+        .top {
+            border-radius: 1vh;
+
+            width: 100%;
+            height: 8vh;
+            background-color: rgb(21, 69, 21);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 200px;
+        }
+
+        .check {
+            display: flex;
+
+
+        }
+
+        .see {
+            margin-left: 10px;
+            border-radius: 2px;
+            display: flex;
+            height: 20px;
+            width: 20px;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+            color: rgb(20, 61, 20);
+            font-size: smaller;
+            font-weight: bolder;
+        }
+
+        .circles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+            align-items: center;
+            justify-content: center;
+            padding-left: 1vw;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            padding-right: 1vw;
+        }
+
+        .circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 6vh;
+            width: 6vh;
+            background-color: rgb(20, 61, 20);
+            border-radius: 100%;
+            color: white;
+            cursor: pointer;
+        }
+        #button{
+            display: flex;
+            margin-top: 4vh;
+            margin-left: 32vw;
+            border-radius: 2vh;
+            height: 8vh;
+            width: 12vw;
+            align-items: center;
+            justify-content: center;
+            background-color : rgb(20, 61, 20);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div class="box">
+        <div class="top">
+            <div class="check">Hit<div class="see" id="hit"></div>
+            </div>
+            <div class="check">Timer<div class="see" id="timer">60</div>
+            </div>
+            <div class="check">Score<div class="see" id="score">0</div>
+            </div>
+        </div>
+        <div class="circles">
+
+
+        </div>
+    </div>
+    <div id="button">PLAY AGAIN</div>
+    <script src="./BubbleGame.js"></script>
+</body>
+
+</html>
